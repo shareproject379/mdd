@@ -19,7 +19,11 @@ class MyInterface(QDialog):
         super().__init__()
         self.ui = BasicInfoUiDialog()
         self.ui.setupUi(self)
+        self.ui.pushButton.clicked.connect(self.change_dialog_title)
         self.show()
+
+    def change_dialog_title(self):
+        self.setWindowTitle("Horaaaa")
 
 
 if __name__ == "__main__":
