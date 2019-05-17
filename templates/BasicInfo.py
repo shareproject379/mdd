@@ -63,7 +63,7 @@ class BasicInfoUiDialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        Dialog.setWindowTitle(_translate("Dialog", "Basic Lte Info"))
         self.pushButton.setText(_translate("Dialog", "نمایش اطلاعات"))
         self.label.setText(_translate("Dialog", "RSRP:"))
         self.label_2.setText(_translate("Dialog", "RSRQ:"))
