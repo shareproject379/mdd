@@ -1,12 +1,5 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'BasicInfo.ui'
-#
-# Created by: PyQt5 UI code generator 5.11.3
-#
-# WARNING! All changes made in this file will be lost!
-
 from PyQt5 import QtCore, QtGui, QtWidgets
+
 
 class BasicInfoUiDialog(object):
     def setupUi(self, Dialog):
@@ -77,4 +70,3 @@ class BasicInfoUiDialog(object):
         self.label_3.setText(_translate("Dialog", "SINR:"))
         self.label_4.setText(_translate("Dialog", "IMEI:"))
         self.label_5.setText(_translate("Dialog", "ICCID:"))
-
